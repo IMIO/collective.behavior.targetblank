@@ -10,6 +10,13 @@ This package add target blank option for Link content type. When it checked,
 link will open in new tab instead of current tab.
 
 
+.. image:: https://travis-ci.org/IMIO/collective.behavior.targetblank.png
+    :target: http://travis-ci.org/IMIO/collective.behavior.targetblank
+
+.. image:: https://coveralls.io/repos/github/IMIO/collective.behavior.targetblank/badge.svg?branch=master
+    :target: https://coveralls.io/github/IMIO/collective.behavior.targetblank?branch=master
+
+
 Features
 --------
 
