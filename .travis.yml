@@ -13,7 +13,7 @@ before_install:
   - echo "[buildout]" > $HOME/.buildout/default.cfg
   - echo "download-cache = $HOME/buildout-cache/downloads" >> $HOME/.buildout/default.cfg
   - echo "eggs-directory = $HOME/buildout-cache/eggs" >> $HOME/.buildout/default.cfg
-  - bin/pip install -r requirements.txt -c constraints_plone43.txt
+  - pip install -r requirements.txt -c constraints_plone43.txt
   - cp test_plone43.cfg buildout.cfg
 
 install:
