@@ -1,3 +1,2 @@
--c constraints_plone43.txt
-setuptools
-zc.buildout
+setuptools==38.2.3
+zc.buildout==2.5.3
