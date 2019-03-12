@@ -10,13 +10,24 @@
     <!-- -*- extra stuff goes here -*- -->
 
     <plone:behavior
-        name="collective.behavior.targetblank.target_blank"
-        title="TargetBlank"
-        description="This behavior provides target blank option for Link"
-        provides=".target_blank.ITargetBlank"
-        factory=".target_blank.TargetBlank"
-        marker=".target_blank.ITargetBlankMarker"
-        />
+      name="collective.behavior.targetblank.behaviors.target_blank"
+      for="plone.app.contenttypes.interfaces.ILink"
+      title="TargetBlank"
+      description="This behavior provides target blank option for Link"
+      provides=".target_blank.ITargetBlank"
+      factory=".target_blank.TargetBlank"
+      marker=".target_blank.ITargetBlankMarker"
+      />
 
+    <adapter factory=".target_blank.link_target_indexer" name="link_target" />
+
+    <browser:page
+      for="*"
+      name="portal_tabs_view"
+      class=".target_blank.TargetBlankCatalogNavigationTabs"
+      permission="zope.Public"
+      allowed_attributes="topLevelTabs"
+      layer="..interfaces.ICollectiveBehaviorTargetblankLayer"
+      />
 
 </configure>
