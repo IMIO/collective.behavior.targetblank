@@ -6,25 +6,14 @@
 collective.behavior.targetblank
 ===============================
 
-Tell me what your product does
+This package add target blank option for Link content type. When it checked,
+link will open in new tab instead of current tab.
+
 
 Features
 --------
 
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
+- Add Checkbox field on Link type
 
 
 Translations
@@ -32,7 +21,8 @@ Translations
 
 This product has been translated into
 
-- Klingon (thanks, K'Plai)
+- French
+- English
 
 
 Installation
@@ -54,16 +44,14 @@ and then running ``bin/buildout``
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/collective.behavior.targetblank/issues
-- Source Code: https://github.com/collective/collective.behavior.targetblank
-- Documentation: https://docs.plone.org/foo/bar
+- Issue Tracker: https://github.com/IMIO/collective.behavior.targetblank/issues
+- Source Code: https://github.com/IMIO/collective.behavior.targetblank
 
 
 Support
 -------
 
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+If you are having issues, please let us know on Issuer Tracker.
 
 
 License
