@@ -38,7 +38,9 @@ class TargetBlankIntegrationTest(unittest.TestCase):
 
     def test_behavior_target_blank(self):
         behavior = getUtility(
-            IBehavior, 'collective.behavior.targetblank.target_blank')
+            IBehavior,
+            'collective.behavior.targetblank.behaviors.target_blank'
+        )
         self.assertEqual(
             behavior.marker,
             ITargetBlankMarker,
