@@ -30,10 +30,10 @@ install:
   - buildout -N -t 3 code-analysis:return-status-codes=True
 
 before_script:
-- 'export DISPLAY=:99.0'
-- Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
-- sleep 3
-- firefox -v
+  - 'export DISPLAY=:99.0'
+  - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+  - sleep 3
+  - firefox -v
 
 script:
 # Run code-analysis, except on Python 3.6, which mysteriously fails to find zc.buildout.
