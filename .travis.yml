@@ -3,8 +3,7 @@ sudo: true
 cache:
   pip: true
   directories:
-    - eggs
-    - downloads
+    - buildout-cache
 python: "2.7"
 before_install:
   - virtualenv -p `which python` .
