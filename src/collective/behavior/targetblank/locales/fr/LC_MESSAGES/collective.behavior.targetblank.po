@@ -16,7 +16,7 @@ msgstr ""
 
 #: ../configure.zcml:26
 msgid "Installs the collective.behavior.targetblank add-on."
-msgstr "Installtion du module collective.behavior.targetblank""
+msgstr "Installtion du module collective.behavior.targetblank"
 
 #: ../behaviors/target_blank.py:89
 msgid "Open link in target blank?"

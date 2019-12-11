@@ -5,7 +5,8 @@ Changelog
 1.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix French .po compilation error
+  [laulaz]
 
 
 1.0.0 (2019-03-12)
